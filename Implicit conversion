@@ -1,0 +1,10 @@
+隐式转换的巧用：num-0;num+""
+boolean==现转为num
+string==num先转为num
+NAN==都为false
+==类型可以不同，值相同
+===类型和值都必须都等
+[1,2]==[1,2] -->false
+[]==[] -->false
+new Object==new Object -->false
+
