@@ -1,0 +1,15 @@
+num，string,boolean有对应的包装类型
+判断数据类型的常用方法：
+typeof(null) object;
+typeof(true) boolean
+typeof([]) object
+typeof常用于判断基本类型和函数类型,但不能判断null
+obj instanceof object常用于判断自定义对象和原生对象
+[1,2] instanceof Array===true
+不同window或iframe间的对象类型检测不能使用instanceof
+Object.prototype.toString.apply([])===[object Array]; 适合内置对象和基元类型
+Object.prototype.toString.apply(function(){})===[object Function];
+Object.prototype.toString.apply(null)===[object null];
+Object.prototype.toString.apply(undefined)===[object undefined];
+constructor
+duck type
