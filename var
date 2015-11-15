@@ -1,0 +1,7 @@
+function test() {
+  a=b=1;
+}
+console.log(a); undefind
+console.log(b); 1
+
+for (a in b) 遍历顺序不确定
